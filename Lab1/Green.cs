@@ -1,4 +1,5 @@
 using System.ComponentModel.Design;
+using System.Xml.Schema;
 
 namespace Lab1
 {
@@ -26,7 +27,6 @@ namespace Lab1
             {
                 answer = true;
             }
-            else
 
                 // end
 
@@ -125,17 +125,13 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            if 
+            if (X >= 7 && (Y * (X + 1) / 2 / 60) >= 4 && (Y * (X + 1) / 2 / 60) < 6)
             {
                 answer = true;
             }
-            else
-            {
-                answer = false;
-            }
-                // end
+            // end
 
-                return answer;
+            return answer;
         }
     }
 }
