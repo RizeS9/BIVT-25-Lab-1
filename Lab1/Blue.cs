@@ -7,7 +7,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-            asdasdawdasd
+
             // end
 
             return answer;
